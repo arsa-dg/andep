@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get("/gaming", "GamingController@index");
+Route::get("/gaming/create", "GamingController@create");
+Route::post("/gaming", "GamingController@store");
+Route::get("/gaming/{id}", "GamingController@show");
+Route::get("/gaming/{id}/edit", "GamingController@edit");
+Route::put("/gaming/{id}", "GamingController@update");
+Route::delete("/gaming/{id}", "GamingController@destroy");
