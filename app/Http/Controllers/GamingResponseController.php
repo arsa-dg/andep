@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\GamingResponse;
+use App\Http\Controllers\GamingController;
 
 class GamingResponseController extends Controller
 {
@@ -23,6 +24,9 @@ class GamingResponseController extends Controller
 
         $new_gamingresponse->save();
 
-        return redirect("/pertanyaan");
+        // masih belom bener linknya
+        return app('App\Http\Controllers\GamingController')->show($request["gaming_id"]);
+
+        // return redirect("/gaming");
     }
 }

@@ -21,4 +21,37 @@
     @endif
 </div> 
 
+<!-- create response -->
+<h1>Create a response!</h1>
+<div>
+    <form action="/gamingresponse/{{ $gaming->id }}" method="POST">
+        @csrf
+        
+        <input type="hidden" name="user_id" value="{{ Auth::id() }}">
+        <input type="hidden" name="user_name" value="{{ Auth::user()->name }}">
+        <input type="hidden" name="gaming_id" value="{{ $gaming->id }}">
+        <label for="content">Isi:</label>
+        <input type="text" name="content" placeholder="Enter isi" id="content">
+
+        <button type="submit">Create!</button>
+    </form>
+</div>
+
+<!-- responses -->
+<h1>Responses:</h1>
+
+@foreach($gamingresponse as $key => $gamingresponse)
+    @if($gamingresponse->gaming_id == $gaming->id)
+        <div>
+            <p>On {{ $gamingresponse->created_at }}</p>
+            <p>By {{ $gamingresponse->user_name }}</p>
+            <p>{{ $gamingresponse->content }}</p>
+            Updated on: {{ $gamingresponse->updated_at }}
+        </div>
+        @if($gamingresponse->user_id == Auth::id())
+            edit
+        @endif
+    @endif
+@endforeach
+
 </html>

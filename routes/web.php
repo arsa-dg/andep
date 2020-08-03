@@ -27,4 +27,6 @@ Route::get("/gaming/{id}", "GamingController@show");
 Route::get("/gaming/{id}/edit", "GamingController@edit");
 Route::put("/gaming/{id}", "GamingController@update");
 Route::delete("/gaming/{id}", "GamingController@destroy");
+//////////////// response ////////////////////////
+Route::post("/gamingresponse/{id}", "GamingResponseController@store");
 //////////////////////////////////////////////////
