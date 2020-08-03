@@ -9,6 +9,12 @@ use App\Gaming;
 
 class GamingController extends Controller
 {
+    // buat autentikasi dulu
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    
     public function index(){
         $gaming = GamingModel::get_all();
         $compact = compact("gaming");
@@ -55,7 +61,8 @@ class GamingController extends Controller
 
         $gaming->save();
 
-        return redirect("/gaming");
+        return $this->show($id);
+        // return redirect("/gaming"); yang ini back to index
     }
 
     public function destroy($id){

@@ -7,6 +7,12 @@ use App\GamingResponse;
 
 class GamingResponseController extends Controller
 {
+    // buat autentikasi dulu
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    
     public function store(Request $request){
         $new_gamingresponse = new GamingResponse;
 

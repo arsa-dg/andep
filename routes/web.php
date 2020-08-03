@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+//////////////// room gaming /////////////////////
 Route::get("/gaming", "GamingController@index");
 Route::get("/gaming/create", "GamingController@create");
 Route::post("/gaming", "GamingController@store");
@@ -22,6 +27,4 @@ Route::get("/gaming/{id}", "GamingController@show");
 Route::get("/gaming/{id}/edit", "GamingController@edit");
 Route::put("/gaming/{id}", "GamingController@update");
 Route::delete("/gaming/{id}", "GamingController@destroy");
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+//////////////////////////////////////////////////
