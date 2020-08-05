@@ -30,3 +30,15 @@ Route::delete("/gaming/{id}", "GamingController@destroy");
 //////////////// response ////////////////////////
 Route::post("/gamingresponse/{id}", "GamingResponseController@store");
 //////////////////////////////////////////////////
+
+//////////////// room gaming /////////////////////
+Route::get("/cooking", "CookingController@index");
+Route::get("/cooking/create", "CookingController@create");
+Route::post("/cooking", "CookingController@store");
+Route::get("/cooking/{id}", "CookingController@show");
+Route::get("/cooking/{id}/edit", "CookingController@edit");
+Route::put("/cooking/{id}", "CookingController@update");
+Route::delete("/cooking/{id}", "CookingController@destroy");
+//////////////// response ////////////////////////
+Route::post("/cookingresponse/{id}", "CookingResponseController@store");
+//////////////////////////////////////////////////
