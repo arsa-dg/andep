@@ -31,7 +31,7 @@ Route::delete("/gaming/{id}", "GamingController@destroy");
 Route::post("/gamingresponse/{id}", "GamingResponseController@store");
 //////////////////////////////////////////////////
 
-//////////////// room gaming /////////////////////
+//////////////// room cooking ////////////////////
 Route::get("/cooking", "CookingController@index");
 Route::get("/cooking/create", "CookingController@create");
 Route::post("/cooking", "CookingController@store");
@@ -41,4 +41,16 @@ Route::put("/cooking/{id}", "CookingController@update");
 Route::delete("/cooking/{id}", "CookingController@destroy");
 //////////////// response ////////////////////////
 Route::post("/cookingresponse/{id}", "CookingResponseController@store");
+//////////////////////////////////////////////////
+
+//////////////// room travelling /////////////////
+Route::get("/travelling", "TravellingController@index");
+Route::get("/travelling/create", "TravellingController@create");
+Route::post("/travelling", "TravellingController@store");
+Route::get("/travelling/{id}", "TravellingController@show");
+Route::get("/travelling/{id}/edit", "TravellingController@edit");
+Route::put("/travelling/{id}", "TravellingController@update");
+Route::delete("/travelling/{id}", "TravellingController@destroy");
+//////////////// response ////////////////////////
+Route::post("/travellingresponse/{id}", "TravellingResponseController@store");
 //////////////////////////////////////////////////
