@@ -54,3 +54,15 @@ Route::delete("/travelling/{id}", "TravellingController@destroy");
 //////////////// response ////////////////////////
 Route::post("/travellingresponse/{id}", "TravellingResponseController@store");
 //////////////////////////////////////////////////
+
+//////////////// room technology /////////////////
+Route::get("/technology", "TechnologyController@index");
+Route::get("/technology/create", "TechnologyController@create");
+Route::post("/technology", "TechnologyController@store");
+Route::get("/technology/{id}", "TechnologyController@show");
+Route::get("/technology/{id}/edit", "TechnologyController@edit");
+Route::put("/technology/{id}", "TechnologyController@update");
+Route::delete("/technology/{id}", "TechnologyController@destroy");
+//////////////// response ////////////////////////
+Route::post("/technologyresponse/{id}", "TechnologyResponseController@store");
+//////////////////////////////////////////////////
