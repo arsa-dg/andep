@@ -19,7 +19,7 @@ class CreateCookingresponseTable extends Migration
             $table->foreign('user_id')->references('id')->on('users');
             $table->string('user_name');
             $table->unsignedBigInteger('cooking_id');
-            $table->foreign('cooking_id')->references('id')->on('cooking');
+            $table->foreign('cooking_id')->references('id')->on('cooking')->onDelete('cascade');
             $table->longText('content');
             $table->timestamps();
         });

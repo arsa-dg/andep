@@ -19,7 +19,7 @@ class CreateGamingresponseTable extends Migration
             $table->foreign('user_id')->references('id')->on('users');
             $table->string('user_name');
             $table->unsignedBigInteger('gaming_id');
-            $table->foreign('gaming_id')->references('id')->on('gaming');
+            $table->foreign('gaming_id')->references('id')->on('gaming')->onDelete('cascade');
             $table->longText('content');
             $table->timestamps();
         });
