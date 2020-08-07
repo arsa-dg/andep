@@ -31,7 +31,7 @@ ol.direction{
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 0px;
-    color: rgb(255, 255, 0);
+    color: rgb(255, 255, 255);
     vertical-align: middle;
     text-align: center;
     justify-content: center;
@@ -49,7 +49,7 @@ ol.direction{
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 0px;
-    color: rgb(255, 255, 0);
+    color: rgb(255, 255, 255);
     vertical-align: middle;
     text-align: center;
     justify-content: center;
@@ -80,23 +80,23 @@ ol.direction{
 
     
     #n4_3 {
-		border-radius: 54px;
+		border-radius: 30px;
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 60%;
-		top:50px;
+		top:30px;
         height: 230px;
     }
     #n4_4 {
         position: relative;
-		border-radius: 54px;
+		border-radius: 30px;
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 60%;
         height: 230px;
-        top: 450px;
+        top: 35px;
     }
     /* Hak Cipta Andep Team 2020 */
 	#n4_22 {
@@ -115,7 +115,7 @@ ol.direction{
 		line-height: 28.125px;
 		height: 46px;
 		left: 0px;
-		top: 1024px;
+		top: 700px;
 		bottom: 0px;
 	}
 
@@ -126,6 +126,6 @@ ol.direction{
 		z-index: 1;
 		width: 100%;
 		bottom: 0px;
-		top: 1024px;
+		top: 700px;
 		height: 50px;
 	}
