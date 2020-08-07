@@ -10,7 +10,7 @@
         <div class="frame" id="n3_0">
             <ol class="direction">
                 <!-- Home -->
-                <div class="left top text" id="n4_5"><a href="#">Home</a></div>
+                <div class="left top text" id="n4_5"><a href="/">Home</a></div>
                 <!-- Bantuan -->
                 <div class="left top text" id="n4_6"><a href="#">Bantuan</a></div>
                 <!-- Hubungi Kami -->
