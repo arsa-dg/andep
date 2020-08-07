@@ -10,11 +10,11 @@
         <div class="frame" id="n3_0">
             <ol class="direction">
                 <!-- Home -->
-                <div class="left top text" id="n4_5">Home</div>
+                <div class="left top text" id="n4_5"><a href="#">Home</a></div>
                 <!-- Bantuan -->
-                <div class="left top text" id="n4_6">Bantuan</div>
+                <div class="left top text" id="n4_6"><a href="#">Bantuan</a></div>
                 <!-- Hubungi Kami -->
-                <div class="left top text" id="n4_8">Hubungi Kami</div>
+                <div class="left top text" id="n4_8"><a href="#">Hubungi Kami</a></div>
             </ol>
             <!-- Rectangle 4 -->
             <div class="left top rectangle" id="n4_17"></div>
