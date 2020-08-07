@@ -4,7 +4,8 @@
         <title>Technology</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amaranth:400">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amaranth:400">
+		<link rel="stylesheet" type="text/css" href="{{ asset('/css/bootstrap.min.css') }}">
         <style>
             body{
                 background: #f4f4f4;
@@ -12,10 +13,10 @@
 
             }
             ol.direction{
-	            position: absolute;
+	            position: relative;
 	            justify-content: center;
 	            width: 100%;
-	            top: 210px;
+	            top: 0px;
 	            display:flex;
 	            left:0px;
 				background-color: #545454;
@@ -39,7 +40,7 @@
             #n3_0 {
 	            width: 100%;
 	            height: 100%;
-	            overflow: hidden;
+	            overflow: visible;
             }
             #n4_5 {
 	            font-family: Amaranth;
@@ -77,7 +78,7 @@
             }
             /*footer*/
             #n4_0 {
-	            position: absolute;
+	            position: relative;
 	            width: 100%;
 	            bottom: 0px;
 	            height: 200px;
@@ -89,19 +90,19 @@
         <header id="n3_0">
              <ol class="direction">
                 <!-- Home -->
-                <div class="left top text" id="n4_5">Home</div>
+                <div class="left top text" id="n4_5"><a href="#">Home</a></div>
                 <!-- Bantuan -->
-                <div class="left top text" id="n4_6">Bantuan</div>
+                <div class="left top text" id="n4_6"><a href="#">Bantuan</a></div>
                 <!-- Hubungi Kami -->
-                <div class="left top text" id="n4_8">Hubungi Kami</div>
+                <div class="left top text" id="n4_8"><a href="#">Hubungi Kami</a></div>
             </ol>
-            <img src="./top.png" width="100%" height="100%"/>
+            <img src="{{ asset('/img/top.png') }}" width="100%" height="100%">
         </header>
         <main>
-
+			@yield("content")
         </main>
         <footer id="n4_0">
-            <img src="./bottom.png" width="100%" height="100%">
+            <img src="{{ asset('/img/bottom.png') }}" width="100%" height="100%">
         </footer>
     </body>
 </html>
