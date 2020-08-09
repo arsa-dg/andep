@@ -94,7 +94,7 @@
                 <!-- Bantuan -->
                 <div class="left top text" id="n4_6"><a href="#">Bantuan</a></div>
                 <!-- Hubungi Kami -->
-                <div class="left top text" id="n4_8"><a href="#">Hubungi Kami</a></div>
+                <div class="left top text" id="n4_8"><a href="/contactus">Hubungi Kami</a></div>
             </ol>
             <img src="{{ asset('/img/top.png') }}" width="100%" height="100%">
         </header>

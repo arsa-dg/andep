@@ -1,0 +1,259 @@
+/* Home */
+#n3_0 {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: rgb(255, 255, 255);
+}
+
+
+/* Rectangle 4 */
+#n4_17 {
+	position: relative;
+	background: rgb(7, 6, 50);
+	background-image: url("https://s3-alpha-sig.figma.com/img/ecf9/04e1/e1f1da924a6aef9cf29c925a2f174bfc?Expires=1597622400&Signature=MuWiuFccpV~VHiEP0QTgyi6e~Ka0Zxck9FifEQuSSbiC33mWBUeb~cV8nhTRdW7n1L0xxcqMiAxaBsgv5IVeBRXluXdPFRhTyVby3bXPoYkSxZA2b-qHaWfthD-eb7CakOnoiTie35x9XXJPyLh2tHg9PzFei7femAuXLULEkZ6-hlUpqHrTT7r5TmId40-zD4MwfrQDd7qJMSfyGQLBGiDDkVMEard4SYZF-Q7Em21opOESqmPcr3ANVRiNp-IyDa~sbB~~nQ~I7XEjqDqfQSaKmVjSk9Efs~EHU7HlkfzMd1jDA8poqngNzU1~gD2aK9xKmFql3UPUZDnclggl0w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+	background-size: 338px;
+	background-repeat: no-repeat;
+	background-position: center 20px;
+	width: 100%;
+	height: 270px;
+}
+
+/* Hubungi Kami */
+#n4_8 {
+	font-family: Amaranth;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	color: rgb(255, 255, 255);
+	vertical-align: middle;
+	text-align: center;
+	justify-content: center;
+	width: 235px;
+	align-items: center;
+	line-height: 28.125px;
+	height: 46px;
+	left: 925px;
+	top: 151px;
+}
+
+
+/* Selamat Datang! */
+#n3_2 {
+	font-family: Amaranth;
+	font-size: 64px;
+	font-weight: 400;
+	color: rgb(7, 6, 50);
+	vertical-align: middle;
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	transform: translate(0px, 0px);
+	line-height: 75px;
+	height: 100%;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+}
+
+/* Bergabunglah dalam komunitas hobi terbesar di Indonesia */
+#n4_4 {
+	font-family: Amaranth;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	color: rgb(0, 0, 0);
+	vertical-align: middle;
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	transform: translate(0px, 0px);
+	line-height: 28.125px;
+	height: 42px;
+}
+
+/* DAFTAR SEKARANG */
+#n4_11 {
+	font-family: Krub;
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: rgb(255, 255, 255);
+	vertical-align: middle;
+	text-align: center;
+	justify-content: center;
+	/* width: 282px; */
+	align-items: center;
+	line-height: 28.125px;
+	height: 58px;
+	left: 387px;
+	top: 555px;
+}
+
+#desc1, #desc2 {
+	font-family: Amaranth;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	left: 30px;
+	color: rgb(0, 0, 0);
+	vertical-align: middle;
+	text-align: justify;
+	justify-content: center;
+	width: 100%;
+	transform: translate(0px, 0px);
+	line-height: 40px;
+}
+
+#desc3{
+	font-family: Amaranth;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	left: 30px;
+	color: rgb(0, 0, 0);
+	vertical-align: middle;
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	transform: translate(0px, 0px);
+	line-height: 40px;
+}
+
+ol.direction{
+	position: absolute;
+	justify-content: center;
+	z-index: 2;
+	width: 100%;
+	top: 210px;
+	display:flex;
+	left:0px;
+}
+/* Home */
+#n4_5 {
+	font-family: Amaranth;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	color: rgb(255, 255, 255);
+	vertical-align: middle;
+	text-align: center;
+	justify-content: center;
+	width: 142px;
+	align-items: center;
+	line-height: 28.125px;
+	height: 46px;
+	left: 386px;
+	top: 1px;
+}
+
+/* Bantuan */
+#n4_6 {
+	font-family: Amaranth;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	color: rgb(255, 255, 255);
+	vertical-align: middle;
+	text-align: center;
+	justify-content: center;
+	width: 183px;
+	align-items: center;
+	line-height: 28.125px;
+	height: 46px;
+	left: 635px;
+	top: 151px;
+}
+
+
+
+ul.category{
+	display: flex;
+	text-align: center;
+}
+
+/* GAMING */
+/* COOKING */
+/* TRAVELLING */
+/* Technology */
+#n15_4, #n15_13, #n15_14, #n15_15 {
+	font-family: Bungee;
+	font-size: 36px;
+	font-weight: 400;
+	text-align: center;
+	justify-content: center;
+	min-width: 327px;
+	max-width: 445px;
+	align-items: center;
+	line-height: 42.1875px;
+	height: 200px;
+}
+
+/* image 2 Gaming */
+/* image 3 Cooking */
+/* image 5 Travelling */
+/* image 6 Technology */
+#n15_3, #n15_6, #n15_9, #n15_11{
+	border-radius: 54px;
+	height: 70%;
+	width: 96%;
+}
+
+#back_daftar{
+	background-color: rgba(0, 77, 194, 0.99);
+	text-align: center;
+}
+
+#daftar {
+	font-family: Krub;
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: rgb(255, 255, 255);
+	vertical-align: middle;
+	text-align: center;
+	justify-content: center;
+	width: 282px;
+	height: 58px;
+	align-items: center;
+	line-height: 58px;
+	overflow: hidden;
+}
+
+
+
+/* Rectangle 1 */
+#n4_0 {
+	background: rgb(7, 6, 50);
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	bottom: 0px;
+	top: 1500px;
+	height: 50px;
+}
+
+/* Hak Cipta Andep Team 2020 */
+#n4_22 {
+	position: absolute;
+	z-index:2;
+	font-family: Amaranth;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	color: rgb(255, 255, 255);
+	vertical-align: middle;
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+	line-height: 50px;
+	height: 46px;
+	left: 0px;
+	top: 1500px;
+	bottom: 0px;
+}
+ul.rectangle_masuk_daftar {
+	justify-content: center;
+	width: 93%;
+	top: 1050px;
+	display: flex;
+}

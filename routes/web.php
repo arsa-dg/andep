@@ -11,8 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// }); default laravel
+
+Route::get('/', function(){
+    return view('homeandep');
 });
 
 Auth::routes();
@@ -66,3 +70,7 @@ Route::delete("/technology/{id}", "TechnologyController@destroy");
 //////////////// response ////////////////////////
 Route::post("/technologyresponse/{id}", "TechnologyResponseController@store");
 //////////////////////////////////////////////////
+
+Route::get('/contactus', function(){
+    return view('contactus.index');
+});
