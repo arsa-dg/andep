@@ -17,21 +17,21 @@ Nomor Kelompok: KELOMPOK 15
 
 ## Job Description Anggota Kelompok
 <ul>
-    <li>Dwiky Hared Darmawan (16519028), Dummy</li>
-    <li>Indira Damayanti (16519034), Dummy</li>
+    <li>Dwiky Hared Darmawan (16519028), Content</li>
+    <li>Indira Damayanti (16519034), Content</li>
     <li>Ronggur Mahendra Widya Putra(16519214), Back end</li>
     <li>Fathiyya Maghfirah Teddy (16519220), Front end</li>
-    <li>Michael Owen (16519268), Dummy</li>
-    <li>Kresna Faza (16519296), Dummy</li>
+    <li>Michael Owen (16519268), Content</li>
+    <li>Kresna Faza (16519296), Content</li>
     <li>Leonard Matheus (16519382), Front End</li>
     <li>Muhammad Zubair (16519453), Front End</li>
     <li>Kevin Katsura Dani Sitanggang (16519468), Front End</li>
-    <li>Arsa Daris Gintara (16519491), Back End</li>
-    <li>Christian Tobing (16519505), Back End</li>
+    <li>Arsa Daris Gintara (16519491), Back End/Fullstack</li>
+    <li>Christian Tobing (16519505), Content</li>
 </ul>
 
 ## Solusi yang Telah Dibuat
-(Ketik di sini)
+<p>Membuat forum berbasis website dengan nama andep yang dapat diakses <a href="an-dep.herokuapp.com">disini.</a></p>
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
