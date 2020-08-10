@@ -6,6 +6,7 @@
 <div>
     <a href="/" class="btn btn-dark mb-2 ml-5">Back to Home</a>
     <a href="/cooking/create" class="btn btn-success mb-2 ml-1">Start a discussion!</a>
+    atau Bergabung forum video <a href="http://meet.google.com" class="btn btn-success mb-2 ml-1">Join Meet!</a>
 </div>
 
 @foreach($cooking as $key => $cooking)
