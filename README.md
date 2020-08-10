@@ -31,7 +31,7 @@ Nomor Kelompok: KELOMPOK 15
 </ul>
 
 ## Solusi yang Telah Dibuat
-<p>Membuat forum berbasis website dengan nama andep yang dapat diakses <a href="an-dep.herokuapp.com">disini.</a></p>
+<p>Membuat forum berbasis website dengan nama andep yang dapat diakses <a href="http://an-dep.herokuapp.com">disini.</a></p>
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
