@@ -1,14 +1,10 @@
-<p align="center"><img src="https://s3-alpha-sig.figma.com/img/ecf9/04e1/e1f1da924a6aef9cf29c925a2f174bfc?Expires=1597622400&Signature=MuWiuFccpV~VHiEP0QTgyi6e~Ka0Zxck9FifEQuSSbiC33mWBUeb~cV8nhTRdW7n1L0xxcqMiAxaBsgv5IVeBRXluXdPFRhTyVby3bXPoYkSxZA2b-qHaWfthD-eb7CakOnoiTie35x9XXJPyLh2tHg9PzFei7femAuXLULEkZ6-hlUpqHrTT7r5TmId40-zD4MwfrQDd7qJMSfyGQLBGiDDkVMEard4SYZF-Q7Em21opOESqmPcr3ANVRiNp-IyDa~sbB~~nQ~I7XEjqDqfQSaKmVjSk9Efs~EHU7HlkfzMd1jDA8poqngNzU1~gD2aK9xKmFql3UPUZDnclggl0w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" width="300"></p>
-
-<foreignObject> 
 <div align="center">
 	<br>
-	<a href="https://github.com/sindresorhus/css-in-readme-like-wat/blame/master/header.svg">
+	<a href="https://github.com/arsa-dg/andep/blob/master/header.svg">
 		<img src="header.svg" width="800" height="400">
 	</a>
 	<br>
 </div>
-</foreignObject> 
 
 ## Judul Solusi
 FORUM DARING UNTUK MENGATASI GANGGUAN KESEHATAN MENTAL DI MASA PANDEMI COVID-19
